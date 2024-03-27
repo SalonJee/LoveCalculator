@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    display:flex;
+  align-items: center;
+  justify-content: center;
+    min-height : 100vh;
+    background-image:url(final.jpg) no repeat center/center/cover;
+    color : whitesmoke;
+}
+
+main{
+    width:300px;
+    padding:30px;
+    border-radius:10px;
+    background-color:transparent;
+    backdrop-filter: blur(25px);
+    border: 2px solid white;
+    display: flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input{
+    padding:10px;
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid white;
+    outline:none;
+    color:white;
+    font-size:20px;
+    color: black;
+    
+
+}
+.mid{
+    display: flex;
+    align-items: center;
+    color: pink;
+
+}
+button{
+    padding:10px;
+    border-radius:25px;
+border:none;
+cursor:pointer;
+}
+
+
+
+
+
+
+i{
+    font-size:5rem !important;
+ 
+}
+
+::placeholder{
+    color:pink;
+}
+
+
+
+
+
+
+
