@@ -7,13 +7,15 @@
 }
 
 body{
-    display:flex;
-  align-items: center;
-  justify-content: center;
-    min-height : 100vh;
-    background-image:url(final.jpg) ;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(final.jpg);
     background-repeat: no-repeat;
-    color : whitesmoke;
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    color: whitesmoke;
 }
 
 main{
